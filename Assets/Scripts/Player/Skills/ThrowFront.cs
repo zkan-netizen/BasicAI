@@ -15,9 +15,7 @@ public class ThrowFront : MonoBehaviour
   void Start()
   {
     _throwData = new Data();
-    _throwData.Damage = 7;
-
-
+    _throwData.Damage = 7; 
   }
 
 

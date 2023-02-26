@@ -4,12 +4,8 @@ using UnityEngine.UI;
 
 public class SkillData
 {
-
   public Image AbilityImage;
-  public float Cooldown;
+  public float AbilityCooldown;
   public bool isCoolDown = false;
-
-
-
-
+  
 }

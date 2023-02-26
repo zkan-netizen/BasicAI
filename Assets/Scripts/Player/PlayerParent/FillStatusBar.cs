@@ -7,7 +7,7 @@ public class FillStatusBar : MonoBehaviour
 {
     public PlayerHealth playerHealth;
 
-    public Image FillImage;
+    // public Image FillImage;
 
     [SerializeField]
     private Slider _slider;

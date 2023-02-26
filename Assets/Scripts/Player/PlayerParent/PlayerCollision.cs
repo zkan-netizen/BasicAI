@@ -21,6 +21,7 @@ public class PlayerCollision : MonoBehaviour
   }
   void Update()
   {
+    transform.position=new Vector3(transform.parent.position.x,transform.position.y,transform.position.z);
     TakeObject();
   }
 }

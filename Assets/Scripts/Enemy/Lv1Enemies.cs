@@ -18,8 +18,8 @@ public class Lv1Enemies : MonoBehaviour
       Childs[i] = transform.GetChild(i).gameObject;
       Childs[i].gameObject.AddComponent<EnemyHealth>();
       Childs[i].gameObject.AddComponent<Follow>();
-      Childs[i].gameObject.AddComponent<EnemyCollision>();
-      Childs[i].gameObject.AddComponent<OnGoing>();
+      // Childs[i].gameObject.AddComponent<EnemyDPS>();
+      // Childs[i].gameObject.AddComponent<Duringg>();
       // Childs[i].gameObject.AddComponent<Rigidbody>();
       Childs[i].gameObject.GetComponent<Transform>();
 

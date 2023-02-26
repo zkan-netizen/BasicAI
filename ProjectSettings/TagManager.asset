@@ -7,6 +7,8 @@ TagManager:
   - Enemy1
   - UnderSkill
   - Enemy
+  - Bullet
+  - Knife
   layers:
   - Default
   - TransparentFX
